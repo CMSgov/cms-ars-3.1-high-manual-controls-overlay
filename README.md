@@ -1,6 +1,6 @@
 # cms-ars-3.1-high-manual-controls-overlay
-InSpec profile overlay to **automate manual controls** of [CMS ARS 3.1](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/ARS-31-Publication.html), 
-**for systems categorized as High ** _(includes High and Non-Mandatory controls). _
+InSpec profile overlay to **automate manual controls** of [CMS ARS 3.1](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/ARS-31-Publication.html),  
+**for systems categorized as High** _(includes High and Non-Mandatory controls)_.
 
 ## Getting Started  
 
