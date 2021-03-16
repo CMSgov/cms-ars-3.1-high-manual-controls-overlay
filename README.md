@@ -33,9 +33,15 @@ __After installing InSpec, run this command to support addressing/automating man
 "cinc-auditor plugin install inspec-reporter-json-hdf" 
 ```
 
-### Addressing manual controls
+### Addressing manual controls  
+
+**Viewing the HDF json in __[Heimdall](https://heimdall-lite.cms.gov/)__:**  
+
 ![image](https://user-images.githubusercontent.com/34140975/111224762-451c7600-85b5-11eb-9bed-8258bfcde1c1.png)
 
+**Exported from Heimdall to CAAT file:**  
+
+![image](https://user-images.githubusercontent.com/34140975/111353333-941ce680-865b-11eb-9d5e-d68acc9b0564.png)
 
 #### Prepare your attestations file content. (See [attestation sample template](https://github.com/ejaronne/cms-ars-3.1-high-manual-controls-overlay/blob/main/attestation-template-cms-ars-3.1-manual-controls-baseline.json))
 
@@ -128,7 +134,7 @@ cinc-auditor exec <name of generated archive> --reporter hdf:<path_to_your_outpu
 
 ## Using Heimdall for Viewing the JSON Results
 
-The JSON results output file can be loaded into __[heimdall-lite](https://heimdall-lite.mitre.org/)__ for a user-interactive, graphical view of the InSpec results. 
+The JSON results output file can be loaded into __[heimdall-lite](https://heimdall-lite.cms.gov/)__ for a user-interactive, graphical view of the InSpec results. 
 
 The JSON InSpec results file may also be loaded into a __[full heimdall server](https://github.com/mitre/heimdall)__, allowing for additional functionality such as to store and compare multiple profile runs.
 
